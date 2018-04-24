@@ -1,0 +1,237 @@
+.rAdded{
+    /*min-height: 250px;
+    min-width: 250px;*/
+}
+
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+.rAdded.initSim {
+    background-color: rgba(255, 210, 126, 0.3);
+    margin: 50px 0;
+}
+
+
+
+.rAdded.initSim:before{
+    content: "Los cambios que se hagan en este espacio no deben formar parte de la respuesta";
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: 0 0 2px #c5c5c5;
+    color: crimson;
+    text-decoration: underline
+}
+
+.imgUpDesc .textoImagen, .imgUpDesc img {
+    width: 18%;
+    float: left;
+    margin-right: 0%;
+    padding: 2%;
+}
+
+.imgUpDesc .textoImagen{
+    width: 60%;
+    padding: 5%;
+}
+
+.textoImagen label, .textoImagen input{
+    width:30%;
+    float:left;
+}
+
+.textoImagen input{
+    width:60%;
+}
+
+label.obligatoria::after {
+    content: "*";
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h4.tituloSec{
+    border: 1px solid #BBB;
+    border-bottom: 0;
+}
+
+h4.tituloSec:nth-child(3n) {
+    background-color: #eeeeee;
+    border: 1px solid #BBB;
+    border-bottom: 0;
+}
+
+.imgDesc:nth-child(3n+1) {
+    background-color: #eeeeee;
+    border: 1px solid #BBB;
+    border-top:0;
+}
+
+.imgDesc{
+    border: 1px solid #BBB;
+    border-top:0;
+}
+
+.imgDesc:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 11px;
+    /* background-color: #a8d6ff; */
+}
+
+.selectCal{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+#bDuplica_imgsim {
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 9px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0;
+    display: block;
+    background-color: #d8932d;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+#bDuplica_imgsim:hover {
+    cursor: pointer;
+}
+
+.btnRes, .btnDef{
+    background-color: #0ea74b;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 9px;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0;
+    margin:auto;
+    width: 20%;
+    margin: 14px 5% !important;
+}
+
+h4.tituloSec {
+    margin-top: 0.5em;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0;
+    color: black;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.btnDef {
+    background-color: #003377;
+    width: 17%;
+    float: left;
+}
+
+.btnDef:hover{
+    cursor: pointer;
+}
+
+.buttonRespuesta {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 2px solid #0ea74b;
+}
+
+.btnRes {
+    background-color: #0ea74b;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 9px;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0;
+    width: 18%;
+    display: block;
+    float: left;
+    margin: 0 0 0 45%;
+}
+
+.saveImgMoodle{
+    background-color: #F6B138;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 9px;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0;
+    width: 18%;
+    display: block;
+    float: left;
+
+    width: 100%;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+}
+
+.saved{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    padding: 9px;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0;
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+p.saved.erase {
+    background-color: #d81f1f;
+}
+
+.obligatoria{
+
+}
+
+.eraseAnsw {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    border-radius: 6px;
+    margin: 0;
+    margin-left: 3%;
+    display: inline-block;
+    line-height: 17px;
+}
+
+.eraseAnsw:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px 1px #bbbbbb;
+    box-shadow: 0 0 5px 1px #bbbbbb;
+}
+
+.btnRes:hover, .saveImgMoodle:hover {cursor: pointer}

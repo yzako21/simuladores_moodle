@@ -1,0 +1,283 @@
+.fitem {
+    margin-bottom: 0px !important;
+    padding-bottom: 10px;
+}
+
+.rAdded{
+	/*background-color: #FFF;*/
+	border-radius: 5px;
+	margin:5px 0;
+}
+
+#formatCont, #formatCont_ini{
+	margin-top: 30px;
+    border-radius: 5px;
+    /* padding: 5px; */
+}
+
+#bResult{
+	background-color: #0ea74b;
+}
+
+#bDuplica {
+    background-color: #d8932d;
+    width: 50%;
+    margin-left: 39%;
+    margin-bottom: 5%;
+}
+
+#bResult, .answerGenerate{
+	background-color: #0ea74b;
+}
+
+.resDefault{
+	background-color: #003377;
+}
+
+div#fitem_id_textosAtto1, div#fitem_id_textosAtto1 + div {
+    background-color: rgba(255, 210, 126, 0.3);
+}
+
+
+div#fitem_id_textosAtto1:before {
+    content: "Los cambios que se hagan en este espacio no deben formar parte de la respuesta";
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: 0 0 2px #c5c5c5;
+    color: crimson;
+    text-decoration: underline;
+}
+.que .formulation span.answer input:not(.incorrect, .correct) {
+    display: none !important;
+}
+
+#bResult, #bDuplica, .resDefault, .answerGenerate {
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 9px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0;
+    display: block;
+}
+
+#bResult:hover, #bDuplica:hover,  .resDefault:hover, .answerGenerate:hover{
+	cursor: pointer;
+}
+
+.resDefault, .answerGenerate{
+	padding: 9px 2%;
+	margin:0;
+	margin:0 2%;
+}
+
+#bResult:hover{
+	text-decoration: none;
+}
+
+.w100{
+	width: 100%;
+	clear: both;
+}
+
+.w90{
+ 	width: 90%;
+ 	float: left;
+ }
+
+.w80{
+	width: 80%;
+	float: left;
+}
+
+.w70{
+	width: 70%;
+	float: left;
+}
+
+.w60{
+	width: 60%;
+	float: left;
+}
+
+.w50{
+	width: 50%;
+	float: left;
+}
+
+ .w40{
+ 	width: 40%;
+ 	float: left;
+ }
+
+ .w30{
+ 	width: 30%;
+ 	float: left;
+ }
+
+
+.w20{
+	width: 20%;
+	float: left;
+}
+
+.w10{
+ 	width: 10%;
+ 	float: left;
+ }
+
+ .w5{
+ 	width: 5%;
+ 	float: left;
+ }
+
+.cBoth{
+	clear: both;
+}
+
+.alpha0{
+	background-color: rgba(0,0,0,0);
+	border:0;
+}
+
+.invisible{
+	display:none;
+}
+
+.squareR20{
+	background-color: #D8D1D3;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 2%;
+
+    -webkit-box-shadow: 0 0 5px 2px #C9CDD6;
+	box-shadow: 0 0 5px 2px #C9CDD6;
+}
+
+.p10{
+	padding: 10px;
+}
+
+.p20{
+	padding: 20px;
+}
+
+.m10{
+	margin: 10px;
+}
+
+.radious10{
+	border-radius: 10px;
+}
+
+.hiden{
+	/*display: none;*/
+}
+
+#fitem_id_initsim, #fitem_id_resultsim, #id_answprev, #fitem_id_answprev{
+	display: none !important;
+}
+
+
+
+#prevAns h4 {
+    width: 102%;
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+
+.eraseAnsw {
+    background-color: red;
+    color: white;
+    padding: 2%;
+    width: 25%;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 17%;
+}
+
+.eraseAnsw:hover{
+	cursor:pointer;
+	-webkit-box-shadow: 0 0 5px 1px #bbbbbb;
+	box-shadow: 0 0 5px 1px #bbbbbb;
+}
+
+div.rT, div.rTT{
+	float: right;
+	width: 36%;
+}
+
+div.rTT + fieldset input{
+	width: 97%;
+}
+
+div.rTr{
+    float: left;
+    width: 100%;
+}
+
+div.rT ol.ansPreCont, div.rTT ol.ansPreCont {
+    width: 90%;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 10px 10%;
+    /* border: 1px solid; */
+    border-top: 0;
+    -webkit-box-shadow: inset 1px 0 0 0 #bbbbbb;
+    box-shadow: inset 3px 0 0 0 #bbbbbb;
+    margin-left: 7%;
+    min-width: 50px;
+}
+
+.ansPreCont li{
+	padding:3px;
+}
+
+.ansPreCont li p:first-letter {
+    text-transform: uppercase;
+}
+
+
+#id_answerhdr .felement.fgroup {
+    float: left !important;
+    width: 36% !important;
+    display: block;
+    margin: 0;
+}
+
+label.accesshide::before {
+    content: "";
+    width: 100%;
+    display: block;
+}
+
+#id_answerhdr .felement.fgroup::before {
+    content: "";
+    width: 100%;
+    display: block;
+    margin-top: 8%;
+}
+
+div.rTT + fieldset::before {
+    content: "Formato de respuesta" !important;
+    height: 15px;
+    display: block;
+    margin: 8% 0 4% 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.felement.fgroup select{
+	width: 100%;
+}
+
+label.accesshide{font-weight: bold !important}
+#id_answerhdr .felement.fgroup label.accesshide:first-child{display: none !important}
+
+.felement.fgroup input[type="text"]{
+	/*display:none;*/
+}

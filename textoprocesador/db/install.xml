@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="question/type/textoprocesador/db" VERSION="20130314" COMMENT="XMLDB file for Moodle question/type/textoprocesador"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="qtype_procesadortx_options" COMMENT="Options for short answer questions">
+     <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+
+        <FIELD NAME="questionid" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="Foreign key references question.id."/>
+
+        <FIELD NAME="usecase" TYPE="int" LENGTH="2" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="Whether answers are matched case-sensitively."/>
+
+        <FIELD NAME="initsim" TYPE="text" NOTNULL="false" DEFAULT="Empty" SEQUENCE="false" COMMENT="Campo generado para el simulador inicial/default del ticometro"/>
+
+        <FIELD NAME="resultsim" TYPE="text"  NOTNULL="false" DEFAULT="Empty" SEQUENCE="false" COMMENT="Campo generado para el simulador resultado del ticometro"/>
+
+	    <FIELD NAME="answprev" TYPE="text"  NOTNULL="false" DEFAULT="Empty" SEQUENCE="false" COMMENT="Campo generado para las previsualizaciones de las respuestas"/>
+
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+        <KEY NAME="questionid" TYPE="foreign-unique" FIELDS="questionid" REFTABLE="question" REFFIELDS="id"/>
+      </KEYS>
+    </TABLE>
+
+  </TABLES>
+</XMLDB>

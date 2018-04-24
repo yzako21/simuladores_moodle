@@ -1,0 +1,70 @@
+.gsc-control-cse.gsc-control-cse-es{
+	margin:0;
+	padding:0;	
+}
+
+.gsc-adBlock{
+	display: none !important;
+}
+
+.gcsc-branding{
+	overflow: hidden;
+}
+
+.gsc-results.gsc-webResult {
+    display: block;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.frameCont{
+	float:left;	
+	width:50%;
+	
+	padding: 0;
+	border-width: 0px;	
+	padding:1%;	
+	background-image: url('../img/fondoBr.png');
+	background-size: contain;
+}
+
+iframe{
+	width: 100%;
+    height: 86%;
+    border-width: 0px;
+    margin-top: 12%;
+}
+
+img.resImg{
+    width: 4%;
+    margin: 20% 1% 0 0;
+    float: left;
+}
+
+.buscador{
+	width:40%;
+	margin: 0 2% 0 0;
+	float:left;
+	max-height: 750px;
+}
+
+.buscaTicRes{
+	width:100%;
+}
+
+#fitem_id_keywords{
+	display: none;
+}
+
+.ansRediz{
+	float: right;
+}
+
+.ansRediz, .ansRediz input{
+    width: 53% !important;    
+}
+
+
+.que.buscasim .answer{
+	padding:0;
+}
